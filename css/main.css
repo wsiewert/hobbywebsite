@@ -1,0 +1,230 @@
+/*font-family: 'Archivo Black', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+
+body {
+  /*background-color: #00B9F7;*/
+  background: linear-gradient( 0deg, #006494, #00B9F7);
+}
+
+
+
+/**************************************************
+HEADER ELEMENTS
+***************************************************/
+
+.header-image {
+  padding: 30px 0 30px 0;
+  border-bottom: 2px solid #003554;
+  margin: 0 5% 0 5%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4.5em;
+  color: #003554;
+  text-shadow: 0px 10px 10px #0582CA;
+}
+
+h2 {
+  margin: 0 40% 0 40%;
+  padding: 0 0 12px 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  color: #003554;
+  text-shadow: 0px 3px 8px #0582CA;
+  border-bottom: 2px solid #003554;
+}
+
+
+
+/**************************************************
+FOOTER ELEMENTS
+***************************************************/
+
+footer {
+  margin: 0 5% 0 5%;
+  border-top: 2px solid #003554;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  color: #003554;
+  padding: 15px 0 15px 0;
+}
+
+
+
+/**************************************************
+NAVIGATION MENU
+***************************************************/
+
+nav {
+  margin: 12px 0 16px 0;
+  text-align: center;
+}
+
+#page-1,
+#page-2,
+#page-3,
+#page-4 {
+  margin: 0 30px 0 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+  color: #003554;
+  text-decoration: none;
+}
+
+#page-1:hover {
+  color: purple;
+}
+
+#page-2:hover {
+  color: red;
+}
+
+#page-3:hover {
+  color: orange;
+}
+
+#page-4:hover {
+  color: yellow;
+}
+
+
+
+/**************************************************
+CONTENT ELEMENTS
+***************************************************/
+
+.content-wrapper {
+  margin: 50px 16% 50px 16%;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+}
+
+ul {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+#disclaimer {
+  margin-top: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  color: #E3372F;
+  text-align: center;
+}
+
+.type-of-drone {
+  margin: 85px auto 25px;
+  width: 450px;
+  height: 400px;
+  box-shadow: 0px 12px 25px #003554;
+  border: 10px solid #ECEBE4;
+}
+
+
+/**************************************************
+FILMING PAGE STYLE EXCEPTIONS
+***************************************************/
+
+#second-page-heading {
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4.5em;
+  color: #fff;
+  text-shadow: 0px 10px 25px #000;
+  position: absolute;
+  top: 350px;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25em;
+  color: #fff;
+  text-shadow: 0px 7px 15px #000;
+  position: absolute;
+  top: 550px;
+  width: 100%;
+}
+
+#second-page-wallpaper {
+  box-shadow: 0 10px 15px #003554;
+}
+
+
+
+/**************************************************
+MEDIA QUERIES - 900px - 600px - 400px
+***************************************************/
+
+@media (max-width: 900px) {
+  .front-page-drone {
+    display: inline;
+    width: 800px;
+    margin: 0 0 0 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 0 25% 0 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .front-page-drone {
+    display: inline;
+    width: 600px;
+    margin: 0 0 0 0;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .front-page-drone {
+    display: inline;
+    width: 300px;
+    margin: 0 0 0 0;
+  }
+
+  nav {
+    font-size: .75em;
+  }
+
+  #page-1,
+  #page-2,
+  #page-3,
+  #page-4 {
+    margin: 0 10px 0 10px;
+  }
+
+  .content-wrapper {
+    font-size: .75em;
+  }
+}
